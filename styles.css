@@ -32438,6 +32438,18 @@ video {
   content: none;
 }
 
+/* Header */
+
+.custom-purple-header {
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(91, 33, 182, var(--tw-border-opacity));
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(91, 33, 182, var(--tw-text-opacity))
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
