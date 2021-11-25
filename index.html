@@ -3,7 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jared Kohrt</title>
+    <link rel="icon" type="image/x-icon" href="img/binary-code.png">
     <link rel = "stylesheet" href = "styles.css">
 </head>
 
@@ -60,8 +61,8 @@
 
         <!--Main content: has three columns of content, but left and right are just for spacing.-->
         <main class = "flex flex-col">
-            <!--LEFT BORDER-->
-            <div class = "p-4 md:m-auto w-full md:w-9/12">
+            <!--Container; keeps it centered-->
+            <div class = "p-4 md:m-auto w-full md:w-10/12">
 
                 <!--CONTENT-->
                 <div id = "center-content" class = "">
@@ -107,7 +108,11 @@
                                 <!--Card-->
                                 <div class = "rounded-xl bg-gray-50 shadow-md flex-auto">
                                     <a href="https://check-mate-finance-tool.herokuapp.com/">
-                                        <img class = "w-80 h-48 object-scale-down py-6 m-auto" src="img/chess.png" alt="chess-icon">
+
+                                        <div class = "bg-cover bg-center rounded-t-xl" style = "background-image: url(img/chess.jpg);">
+                                            <div class = "w-80 h-48 "></div>
+                                        </div>
+
                                         <div class = "m-4 font-bold text-center text-xl">
                                             <span>Check-Mate</span>
                                             <a href="https://github.com/jordandub1/check-mate">
@@ -118,7 +123,7 @@
                                 </div>
 
                                 <!--Description-->
-                                <div class = "leading-loose w-9/12 flex-shrink m-auto pt-4 md:pl-6 md:pt-0">
+                                <div class = "leading-loose w-9/12 flex-grow m-auto pt-4 md:pl-6 md:pt-0">
                                     A "checkbook" application for tracking spending habits. Uses Node, Sequelize ORM (MySQL) and Express.js for the backend; 
                                     Handlebars, Bootstrap and Chart.js for the front-end.
                                 </div>
@@ -195,14 +200,15 @@
                                 <!--Card-->
                                 <div class = "rounded-xl bg-gray-50 flex-auto shadow-md">
                                     <a href = "https://github.com/jkohrt7/Employee_CMS">
-                                        <div class = "bg-green-500 rounded-t-xl ">
-                                            <img class = "w-80 h-48 object-scale-down p-4 m-auto" src="img/db.png" alt="db-icon">
+
+                                        <div class = "bg-cover bg-center rounded-t-xl" style = "background-image: url(img/db.png);">
+                                            <div class = "w-80 h-48 "></div>
                                         </div>
                                         
                                         <div class = "m-4 font-bold text-center text-xl">
                                             <span>Employee CMS</span>
                                             <a href="https://github.com/jordandub1/check-mate">
-                                                <img class = "h-11 mx-6 inline mb-3" src="img/github.svg" alt="github icon">
+                                                <img class = "h-11 mx-6 inline" src="img/github.svg" alt="github icon">
                                             </a>
                                         </div>
                                     </a>
@@ -241,6 +247,15 @@
                                     </svg>
                                     <h2 class= "md:text-2xl pl-6">jkohrt7@gmail.com</h2>
                                 </div>
+
+                                <div class = flex>
+                                    <a href="https://github.com/jkohrt7">
+                                        <img class = "h-8 w-8" src="img/github.svg" alt="github icon">
+                                    </a>
+                                    <h2 class= "md:text-2xl pl-6">github.com/jkohrt7</h2>
+                                </div>
+
+
                             </div>
                         </div>
                     </section>
@@ -252,15 +267,9 @@
         </main>
 
         <footer>
-            <section class = "flex flex-row justify-center align-middle h-16 bg-purple-900 p-2">
-
-                <a href="https://github.com/jkohrt7">
-                    <img class = "h-11 mx-6" src="img/github.svg" alt="github icon">
-                </a>
+            <section class = "flex flex-row justify-end align-right h-16 bg-purple-900 p-2">
                 
-                <a href="https://www.linkedin.com/in/jared-kohrt-85029a19a/">
-                    <img class = "h-11 mx-6" src="img/linkedin.svg" alt="the linkedin icon">
-                </a>
+                <div class = "text-sm ">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
             </section>
 
